@@ -11,13 +11,13 @@
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
-  icon: '/icons/64.png',
+  icon: '/icons/128.png',
 
   // Prefix for KV Storage
   kvPrefix: process.env.KV_PREFIX || '',
 
   // The name of your website. Present alongside your icon.
-  title: "Aoian's OneDrive",
+  title: "Aoian云盘",
 
   // The folder that you are to share publicly with onedrive-vercel-index. Use '/' if you want to share your root folder.
   baseDirectory: '/public',
@@ -54,11 +54,7 @@
     {
       name: 'GitHub',
       link: 'https://github.com',
-    },
-    {
-      name: 'Telegram',
-      link: 'https://t.me',
-    },
+    }
   ],
 
   // This is a day.js-style datetime format string to format datetimes in the app. Ref to
