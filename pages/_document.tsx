@@ -13,6 +13,8 @@ class MyDocument extends Document {
           {siteConfig.googleFontLinks.map(link => (
             <link key={link} rel="stylesheet" href={link} />
           ))}
+          <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+          <script>LA.init({id: "JlJDMLfdR6uoRtAH",ck: "JlJDMLfdR6uoRtAH",autoTrack:true})</script>
         </Head>
         <body>
           <Main />
